@@ -9,6 +9,9 @@ config = {
     "database": "91dapin"
 }
 
+# db = pymysql.Connect('127.0.0.1', 'root', 'root', '91dapin')
+##当*和**符号出现在函数定义的参数中时，表示任意数目参数收集。
+# *arg表示任意多个无名参数，类型为tuple;**kwargs表示关键字参数，为dict，使用时需将*arg放在**kwargs之前
 db = pymysql.Connect(**config)
 
 # 使用cursor()方法创建一个游标对象
