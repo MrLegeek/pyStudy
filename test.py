@@ -1,1 +1,4 @@
-print("'isneet"+"','"+"7773434")
+import  time
+
+print(time.time())
+print(time.time())
