@@ -4,7 +4,7 @@ from collections import Counter
 from pprint import  pprint
 
 content = []
-with open("张小龙演讲.txt", encoding="utf-8") as f:
+with open("zhangyanjiang.txt", encoding="utf-8") as f:
     content = f.read()
 
 seg = pkuseg.pkuseg()
